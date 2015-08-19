@@ -1,0 +1,762 @@
+<!-- UI Author: PRAVINKUMAR
+Created on: 23/06/15
+<!-- begin #content -->
+<!DOCTYPE html>
+
+<!--test-->
+<!--testing4--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!--guru-->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<!-- ================== BEGIN WEBQR JS ================== -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- ================== END WEBQR JS ================== -->
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="assets/css/animate.min.css" rel="stylesheet" />
+	<link href="assets/css/style.min.css" rel="stylesheet" />
+	<link href="assets/css/style-responsive.min.css" rel="stylesheet" />
+	<link href="assets/css/theme/default.css" rel="stylesheet" id="theme" />
+        <link href="assets/plugins/bootstrap-validation/css/bootstrapValidator.css" rel="stylesheet" />
+	<!--<link href="assets/css/awesomplete.css" rel="stylesheet" />-->
+	<!-- ================== END BASE CSS STYLE ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL STYLE  wizard================== -->
+	<link href="assets/plugins/bootstrap-wizard/css/bwizard.min.css" rel="stylesheet" />
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+ 
+	
+	<!-- ================== START SELECT PICKER GO================== -->
+	
+	 <link rel="stylesheet" href="assets/selectpicker/css/bootstrap-select_table.css">
+	 <script src="assets/selectpicker/js/bootstrap-select_table.js"></script>
+	 
+	<script src="assets/plugins/bootstrap-select/bootstrap-select1.min.js"></script>
+	<!-- ================== END SELECT PICKER GO================== -->
+	
+	
+	
+	<!-- ================== BEGIN PAGE LEVEL STYLE Data tables================== -->
+	<link href="assets/plugins/DataTables/css/data-table.css" rel="stylesheet" />
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL STYLE Form plugin================== -->
+	<link href="assets/plugins/bootstrap-datetimepicker2/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" />
+	<link href="assets/plugins/ionRangeSlider/css/ion.rangeSlider.css" rel="stylesheet" />
+	<link href="assets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" />
+	<link href="assets/plugins/password-indicator/css/password-indicator.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-combobox/css/bootstrap-combobox.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet" />
+	<link href="assets/plugins/jquery-tag-it/css/jquery.tagit.css" rel="stylesheet" />
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+
+	<!-- ================== BEGIN PAGE LEVEL STYLE show or hide column================== -->
+	<link href="assets/plugins/DataTables/css/data-table.css" rel="stylesheet" />
+    <link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+	
+	<!-- ================== Browse button custom================== -->
+	<link href="assets/plugins/browse-button/filecss.css" rel="stylesheet" />
+	<script src="assets/plugins/browse-button/filejs.js"></script>
+	<!-- ================== START PAGE LEVEL STYLE ================== -->
+	
+
+	
+	<!-- ================== JS ================== -->
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="assets/plugins/pace/pace.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+        
+        <!-- ================== BEGIN BASE JS ================== -->
+	<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+	 <script src="http://cdn.jagansindia.in/webrupee" type="text/javascript"></script>
+	<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+	<script src="assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/bootstrap-validation/js/bootstrapValidator.js"></script>
+	<!--Dashboard Start-->
+	<script src="assets/js/dashboard.min.js"></script>
+	<script src="assets/plugins/flot/jquery.flot.min.js"></script>
+	<script src="assets/plugins/sparkline/jquery.sparkline.js"></script>
+	<!--Dashboard End-->
+	<!--[if lt IE 9]>
+		<script src="assets/crossbrowserjs/html5shiv.js"></script>
+		<script src="assets/crossbrowserjs/respond.min.js"></script>
+		<script src="assets/crossbrowserjs/excanvas.min.js"></script>
+	<![endif]-->
+	<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+        
+	<!--====================== MOMENT JS INCLUDE ===============-->
+	<script src="assets/plugins/moment/moment.min.js"></script>
+	<!--====================== MOMENT JS INCLUDE ===============-->
+	
+	<!-- ================== START EXPORT================== -->
+	<script type="text/javascript" src="assets/plugins/export/tableExport.js"></script>
+        <script type="text/javascript" src="assets/plugins/export/jquery.base64.js"></script>
+	<script type="text/javascript" src="assets/plugins/export/jspdf/libs/sprintf.js"></script>
+	<script type="text/javascript" src="assets/plugins/export/jspdf/jspdf.js"></script>
+	<script type="text/javascript" src="assets/plugins/export/jspdf/libs/base64.js"></script>
+	<!-- ================== END EXPORT================== -->
+
+	
+	<!-- ================== END BASE JS ================== -->
+	
+		
+	
+	
+	
+	
+	<!-- ================== BEGIN PAGE LEVEL JS Data tables================== -->
+	
+	
+
+<!--<script type="text/javascript" src="assets/datatable/js/dataTables.responsive.min.js"></script>-->
+<!--<script type="text/javascript" src="assets/datatable/js/dataTables.bootstrap.js"></script>-->
+
+<!--<script type="text/javascript" src="assets/datatable/js/jquery.dataTables.min.js"></script>-->
+
+	<script src="assets/plugins/DataTables/js/jquery.dataTables.js"></script>
+	<script src="assets/plugins/DataTables/js/dataTables.responsive.js"></script>
+	<script src="assets/js/table-manage-responsive.demo.min.js"></script>
+	
+	
+        <!-- ================== END PAGE LEVEL JS ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL JS Form plugin================== -->
+	<script src="assets/plugins/bootstrap-datetimepicker2/js/moment-with-locales.js"></script>
+	<script src="assets/plugins/bootstrap-datetimepicker2/js/bootstrap-datetimepicker.min.js"></script>
+	<!--<script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+	<script src="assets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js"></script>
+	<script src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+	<script src="assets/plugins/masked-input/masked-input.min.js"></script>
+	<script src="assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+	<script src="assets/plugins/password-indicator/js/password-indicator.js"></script>
+	<script src="assets/plugins/bootstrap-combobox/js/bootstrap-combobox.js"></script>
+	<script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+	<script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+	<script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js"></script>
+	<script src="assets/plugins/jquery-tag-it/js/tag-it.min.js"></script>
+	<script src="assets/js/form-plugins.demo.min.js"></script>
+	<script src="assets/js/apps.min.js"></script>
+	<!--<script src="assets/js/polyfiller.js"></script>-->
+	<!-- ================== END PAGE LEVEL JS ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL JS hide column================== -->
+	<script src="assets/plugins/DataTables/js/jquery.dataTables.js"></script>
+	<script src="assets/plugins/DataTables/js/dataTables.autoFill.js"></script>
+	<!--<script src="assets/plugins/DataTables/js/dataTables.colReorder.js"></script>-->
+	<script src="assets/plugins/DataTables/js/dataTables.colVis.js"></script>
+	<script src="assets/plugins/DataTables/js/dataTables.fixedHeader.js"></script>
+	<script src="assets/plugins/DataTables/js/dataTables.keyTable.js"></script>
+	<script src="assets/plugins/DataTables/js/dataTables.tableTools.js"></script>
+	<!--<script src="assets/plugins/gritter/js/jquery.gritter.js"></script>-->
+	<script src="assets/js/table-manage-combine.demo.min.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+	
+	
+	<!-- ================== BEGIN PAGE LEVEL JS wizard ================== -->
+
+	<script src="assets/plugins/bootstrap-wizard/js/bwizard.js"></script>
+	<script src="assets/js/form-wizards.demo.min.js"></script>
+	<script src="assets/js/apps.min.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+	<!-- ================== BEGIN PAGE LEVEL Currency Format ================== -->
+	<script type="text/javascript" src="assets/js/jquery.formatCurrency-1.4.0.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+	
+	<!-- ================== Begin formValidation packages================== -->
+	<link href="assets/plugins/formValidation/css/formValidation.css" rel="stylesheet" />
+	<script src="assets/plugins/formValidation/js/formValidation.js"></script>
+	<script src="assets/plugins/formValidation/js/framework/bootstrap.min.js"></script>
+	<!-- ================== End formValidation packages================== -->
+	
+		
+	<script>
+		$(document).ready(function() {
+			App.init();
+						//FormWizardValidation.init();
+
+			//FormPlugins.init();
+			//TableManageResponsive.init();
+		});
+	</script>
+	<!-- ================== BEGIN WEBQR JS ================== -->
+			<script src="assets/js/bootbox.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/qrjs/llqrcode.js"></script>
+			<script type="text/javascript" src="assets/plugins/qrjs/webqr.js"></script>
+			<script type="text/javascript" src="assets/plugins/qrjs/plusone.js"></script>
+		<!-- ================== END WEBQR JS ================== -->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<style>
+	    .table_input{
+		width: auto;
+	    }
+	    
+
+	.btn-new {
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	padding: 6px 12px;
+	text-align:center;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 85%;
+	}
+	
+	.btn-new.btn-new-inverse {
+	background: #2d353c none repeat scroll 0 0;
+	border-color: #2d353c;
+	color: #fff;
+	}
+	a:focus, a:hover {
+        text-decoration: none;
+	}
+	</style>
+	    
+	
+</head>
+<body>
+    <!-- begin #page-loader -->
+    <div id="page-loader" class="fade"><span class="spinner"></span></div>
+    <!-- end #page-loader -->
+    <!-- begin #page-container -->
+    <div id="page-container" class="fade in page-sidebar-fixed page-header-fixed">
+        <!-- begin #header -->
+        <div id="header" class="header navbar navbar-default navbar-fixed-top">
+            <!-- begin container-fluid -->
+            <div class="container-fluid">
+                <!-- begin mobile sidebar expand / collapse button -->
+                <div class="navbar-header">
+                    <a href="" class="navbar-brand"><span class=""><img src="assets/img/mantis_logo.jpg" data-id="login-cover-image" alt="" /></span> </a>
+                    <button type="button" class="navbar-toggle" data-click="sidebar-toggled">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- end mobile sidebar expand / collapse button -->
+                    
+                <!-- begin header navigation right -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="navbar-form full-width">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter keyword" />
+                                <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="dropdown navbar-user">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="" alt="" /> 
+                            <span class="hidden-xs"></span> <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInLeft">
+                            <li class="arrow"></li>
+                            <li><a href="javascript:;">Edit Profile</a></li>
+                            <li class="divider"></li>
+                            <li><a href="AppsCtr/Logout"> <i class="fa fa-sign-out"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- end header navigation right -->
+            </div>
+            <!-- end container-fluid -->
+        </div>
+        <!-- end #header -->
+        
+        <!-- begin #sidebar -->
+        <div id="sidebar" class="sidebar">
+            <!-- begin sidebar scrollbar -->
+            <div data-scrollbar="true" data-height="100%">
+                <!-- begin sidebar user -->
+                <ul class="nav">
+                    <li class="nav-profile">
+                        <div class="image">
+                            <a href="javascript:;"><img src="" alt="" /></a>
+                        </div>
+                        <div class="info">
+                            <!--<small>Front end developer</small>-->
+                        </div>
+                    </li>
+                </ul>
+                <!-- end sidebar user -->
+                <!-- begin sidebar nav -->
+                <ul class="nav">
+                  
+		    
+		    <li class="has-sub active">
+                        <a href="javascript:;">
+                            <b class="caret pull-right"></b>
+                            <i class="fa fa-truck text-warning"></i> 
+                            <span>Logistics</span>
+                        </a>
+                        <ul class="sub-menu">
+				<li><a href="#">Job Request Transaction</a></li>
+				<li><a href="#">Logistics Dashboard</a></li>
+				<li><a href="#">Schedule Transaction</a></li>
+				<li class="active"><a href="#">Schedule Tracking Dashboard</a></li>
+				<li><a onclick="measurement()">Measurement Transaction </a></li>
+				<li><a href="#">Job Status Dashboard</a></li>
+                                
+                        </ul>
+                    </li>
+                  
+		    
+                    <!-- begin sidebar minify button -->
+                    <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
+                    <!-- end sidebar minify button -->
+                </ul>
+                <!-- end sidebar nav -->
+            </div>
+            
+            <script type="text/javascript">
+        
+        function measurement() {
+    		alert("success");
+    		window.open('MeasurementTransaction_Add.html', '_blank','location=no');
+    	}
+        
+        </script>
+            
+            <!-- end sidebar scrollbar -->
+        </div>
+        <div class="sidebar-bg"></div>
+	<!-- end #sidebar -->
+	    
+	    <script src="http://www.geoplugin.net/javascript.gp"></script>
+	    <div class="content" id="content">
+		<!-- begin breadcrumb -->
+		
+		<!-- end breadcrumb -->
+		<!-- begin page-header -->
+		
+		<!-- end page-header -->
+		<!-- begin row -->
+		<div class="row">
+		    <!-- begin col-10 -->
+		    <div class="col-md-12">
+			<!-- begin panel -->
+			<div class="panel panel-inverse">
+			    <div class="panel-heading">
+				<div class="panel-heading-btn">
+				    <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+				    <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+				    <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+				</div>
+				<h4 class="panel-title">Schedule Tracking Dashboard</h4>
+			    </div>
+			    <div class="panel-body">
+				<form class="form-horizontal" id="form_validation" method="POST" enctype="multipart/form-data">
+				    <div class="row">
+					<div class="col-md-5">
+					    <div class="form-group">
+						<label class="col-md-4 control-label">Vehicle Code</label>
+						<div class="col-md-8">
+						    <input type="text" class="form-control" name="LSH_VEHICLE_CODE" id="LSH_VEHICLE_CODE"  placeholder="VEHICLE CODE" readonly>
+						</div>
+					    </div>
+					    <div class="form-group">
+						<label class="col-md-4 control-label">Current Location</label>
+						<div class="col-md-8">
+						    <input type="text" class="form-control" name="CURRENT_LOCN_CODE" id="CURRENT_LOCN_CODE" readonly>
+						</div>
+					    </div>
+					</div>
+					<div class="col-md-4" >
+					    <div id="googleMap" style="height:345px;"></div>
+					</div>
+					<div class="col-md-3">
+					    <center><h5>Job Statistics </h5></center>
+					    <table class="table table-striped table-bordered nowrap" width=100%>
+						<tr>
+						    <th>Total Jobs</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Completed</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Rescheduled</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Closed</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Not Scheduled</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Partialy Complete</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Scheduled</th>
+						    <td></td>
+						</tr>
+						<tr>
+						    <th>Pending</th>
+						    <td></td>
+						</tr>
+					    </table>
+					</div>
+				    </div>
+				</form>
+			        <div class="panel-body">
+				    <div class="table-responsive">
+					<table class="table table-striped table-bordered nowrap" id="dataRespTable" width="100%">
+					    <thead>
+						<tr>
+						    <th>Transaction Code</th>
+						    <th>Transaction Number</th>
+						    <th>Transaction Date</th>
+						    <th>Customer Info</th>
+						    <th>City</th>
+						    <th>Requested By</th>
+						    <th>Job</th>
+						    <th>Distance</th>
+						    <th>Approx Time To Reach</th>
+						    <th>Job Status</th>
+						    <th>Action</th>
+						</tr>
+					    </thead>
+					    <tbody>
+						<tr>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td><a onclick="javascript:update_data()" data-toggle="modal" href="#modal-dialog"><span class="btn btn-info btn-xs"><i class="fa fa-edit"></i></span></a>
+							<a href="MeasurementTransaction_Add.html"><span class="btn btn-info btn-xs"><i class="fa fa-road"></i></span></a> 
+						    </td>
+						</tr>
+					    </tbody>
+					</table>
+				    </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
+			<!-- end panel -->
+		</div>
+		    <!-- end col-10 -->
+	    </div>
+		<!-- end row -->
+	    </div>
+	    <!-- end #content -->
+	    <!-- begin scroll to top btn -->
+	    <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
+	    <!-- end scroll to top btn -->
+	</div>
+	<!-- end page container -->
+					    <div class="modal fade" id="modal-dialog">
+					<div class="modal-dialog">
+					    <div class="modal-content">
+						<div class="modal-header">
+						    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+						    <div id="header_date"><h4> Response date</h4></div>
+							<div class="modal-body">
+							    <div class="panel-body">
+								<form class="form-horizontal" id="Form_data" method="POST" enctype="multipart/form-data">
+								    <div id="fancy_data">
+									<input type="hidden" name="LSL_SYS_ID1" id="LSL_SYS_ID1">
+									<div class="col-md-12">
+									    <div class="form-group">
+										<label class="col-md-5 control-label">Job Status</label>
+										<div class="col-md-7">
+										    <select class="form-control selectpicker" name="ct_cn_code" id='ct_cn_code' data-live-search="true" data-style="btn-white">
+											<option selected disabled>Select</option>
+											<option value=""></option>
+										    </select>
+										</div>
+									    </div>
+									    <div class="form-group">
+										<label class="col-md-5 control-label">Description</label>
+										<div class="col-md-7">
+										    <input type="text" class="form-control" name="ct_desc" id="ct_desc"/>
+										</div>
+									    </div>
+									    <div class="form-group">
+										<label class="col-md-5 control-label">Re Scheduled Reason</label>
+										<div class="col-md-7">
+										    <input type="text" class="form-control selectpicker" name="LSL_RE_SCH_REASON" id='LSL_RE_SCH_REASON' data-live-search="true" data-style="btn-white"/>
+										</div>    
+									    </div>
+									    <div class="form-group">
+										<label class="col-md-5 control-label">Rescheduled Date</label>
+										<div class="col-md-7">
+										    <input type="text" class="form-control input-group datepicker-txn" name="ct_longitude" id="ct_longitude"/>
+										</div>    
+									    </div>
+									    <div class="form-group">
+										<div class="col-md-7">
+										    <input type="submit" class="btn btn-sm btn-success" name="Update" value="Save">
+										</div>    
+									    </div>
+									</div>
+								    </div>
+								</form>
+							    </div>
+							</div>
+							<div class="modal-footer">
+							    <a href="javascript:;" class="btn btn-sm btn-white" data-dismiss="modal">Close</a>
+							</div>
+						    </div>
+						</div>
+					    </div>
+					</div>
+	
+<script>
+    
+    FormPlugins.init();
+    $(document).ready(function()
+    {
+	var table = $("#dataRespTable").DataTable
+	({
+	    dom: 'TRC<"clear">lfrtip',
+	    responsive: true,
+	    tableTools:
+	    {
+		sSwfPath: "../assets/plugins/DataTables/swf/copy_csv_xls_pdf.swf"
+	    },
+	});
+	table.columns( [0,1,2,3,4,5,6,7,8,9,10] ).visible( true, true );
+	table.columns.adjust().draw( false );
+    
+	 var map;
+	var directionsDisplay;
+	var directionsService = new google.maps.DirectionsService();
+	directionsDisplay = new google.maps.DirectionsRenderer();
+	function initialize() {
+	  var mapOptions = {
+	    zoom: 12
+	  };
+	  map = new google.maps.Map(document.getElementById('googleMap'),mapOptions);
+	  directionsDisplay.setMap(map);
+	  if(navigator.geolocation) {
+	    navigator.geolocation.getCurrentPosition(function(position) {
+	      var pos = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+	      new google.maps.Marker({
+		  map: map,
+		  position: pos
+		});
+		// Draw a circle around the user position to have an idea of the current localization accuracy
+	      var circle = new google.maps.Circle({
+		center: pos,
+		radius: position.coords.accuracy,
+		map: map,
+		//fillColor: '#FFFFFF',
+		fillOpacity: 0.1,
+		strokeColor: '#CDE2AC',
+		strokeOpacity: 1.0
+	      });
+	      map.fitBounds(circle.getBounds());
+	    },
+	    function() {
+	      handleNoGeolocation(true);
+	    });
+	    //
+	    } else {
+	    // Browser doesn't support Geolocation
+	    handleNoGeolocation(false);
+	    }
+	}
+	//error in browser 
+	function handleNoGeolocation(errorFlag) {
+	    if (errorFlag) {
+	      var content = 'Error: The Geolocation service failed.';
+	    } else {
+	      var content = 'Error: Your browser doesn\'t support geolocation.';
+	    }
+	    var options = {
+	      map: map,
+	      position: new google.maps.LatLng(60, 105),
+	      content: content
+	    };
+	    var infowindow = new google.maps.InfoWindow(options);
+	    map.setCenter(options.position);
+	}
+	//end error browser
+	function calcRoute() {
+	    var start = document.getElementById('source').value;
+	    var end = document.getElementById('destination').value;
+	    //var waypts = [];
+	    var request = {
+		origin: start,
+		destination: end,
+		//waypoints: waypts,
+		optimizeWaypoints: true,
+		travelMode: google.maps.TravelMode.DRIVING
+	    };
+	    directionsService.route(request, function(response, status) {
+	      if (status == google.maps.DirectionsStatus.OK) {
+		directionsDisplay.setDirections(response);
+		}
+	    });
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+});
+    
+</script>
+	
+	<script src="assets/plugins/map_marker/geolocationmarker-compiled.js"></script>
+	<script>
+	 $('#Form_data').bootstrapValidator({
+		message: 'This value is not valid',
+		container: 'tooltip',
+		excluded: [':disabled'],
+		feedbackIcons: {
+		    valid: 'fa fa-check',
+		    invalid: 'fa fa-times',
+		    validating: 'fa fa-refresh'
+		},
+		fields: {
+		    trigger:'blur',
+		    LSL_JOB_STATUS: {
+			validators: {
+			    
+			    notEmpty: {
+				message: 'The job status is required and can\'t be empty'
+			    },
+			}
+			
+		    },
+		    LSL_EX_REMARKS: {
+			validators: {
+			    
+			    notEmpty: {
+				message: 'The description is required and can\'t be empty'
+			    },
+			}
+			
+		    },
+		    LSL_RE_SCH_REASON: {
+			validators: {
+			    
+			    callback:
+			    {
+				message: 'Reschedule reason is required',
+				callback: function(value, validator)
+				{
+				    var LSL_JOB_STATUS=$("#LSL_JOB_STATUS").val();
+				   
+				      if (LSL_JOB_STATUS=="ReScheduled")
+				      {
+					 
+					  if (value)
+					  {
+					      return true;
+					  }
+					  else
+					  {
+					  
+					      return false;
+					  }
+				      }
+				      else
+				      {
+					 return true;
+				      }
+				    
+				}
+			    }							
+			}
+			
+		    },
+		    LSL_RE_SCH_DT: {
+			validators: {
+			    
+			    callback:
+			    {
+				message: 'Reschedule date is required',
+				callback: function(value, validator)
+				{
+				    var LSL_JOB_STATUS=$("#LSL_JOB_STATUS").val();
+				   
+				      if (LSL_JOB_STATUS=="ReScheduled")
+				      {
+					  if (value=="")
+					  {
+					      return false;
+					  }
+					  else
+					  {
+					      return true;
+					  }
+				      }
+				      else
+				      {
+					 return true;
+				      }
+				    
+				}
+			    }
+			}
+			
+		    }
+	     
+		}
+	    });
+	$("input[type=number]").bind('keyup input', function()
+	    {
+		var speed=$(this).val();
+		var distance=$("#DISTANCE").val().replace ( /[^\d.]/g, '' );
+		var time=distance/speed;
+		time=time.toFixed(2);
+		time=time.toString();
+		var hour1=time.split('.');
+		if (hour1[1]<60)
+		{
+		    //alert(time+" hour sceond");
+		}
+		else
+		{
+		    var mint=hour1[1]-60;
+		    var st=mint.toString();
+		    if (st.length=="1")
+		    {
+			mint="0"+mint;
+		    }
+		    var hour2=parseInt(hour1[0])+1;
+		    $("#TIME").val(hour2+"."+mint+" Hour");
+		}
+	    });
+	    
+	</script>
+    </body>
+</html>
